@@ -59,7 +59,9 @@ For use this library, only include in your project the files in src:
 
 For test the library we include a QT project file (mep_inttest.pro)
 in .qt folder. This qt project, compile the interactive test.
-The only one argument is the type of MEP message to use (PPTP or UoPTB)
-0 is used for PPTP messages and 1  for UoPTB messages
+The program arguments are:
+
+    1.- The type of MEP message to use (PPTP or UoPTB). 0 is used for PPTP messages and 1  for UoPTB messages.
+    2.- The IP address of the Aesys device.
 
 If you have any question, please send me an email.
